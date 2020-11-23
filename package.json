@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git@github.com:elfinFE/babel-plugin-glodash.git"
   },
+  "typings": "types/index.d.ts",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib || true",
