@@ -1,15 +1,15 @@
 {
-  "name": "babel-plugin-glodash",
-  "version": "1.0.5",
+  "name": "@elfin-fe/babel-plugin-glodash",
+  "version": "1.0.6",
   "description": "elfin babel plugin",
   "repository": {
     "type": "git",
-    "url": "git@github.com:XyyF/babel-plugin-elfin.git"
+    "url": "git@github.com:elfinFE/babel-plugin-glodash.git"
   },
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib || true",
-    "publish": "npm run build && npm publish",
+    "publish": "npm run build && npm publish --access public",
     "test": "npm run build && mocha --check-leaks --require @babel/register"
   },
   "author": "rengar",
